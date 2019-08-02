@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miris.StringZipper", "Miris.StringZipper\Miris.StringZipper.csproj", "{76465BC9-0CF9-40B2-84CA-16C4023030BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miris.StringZipper", "Miris.StringZipper\Miris.StringZipper.csproj", "{76465BC9-0CF9-40B2-84CA-16C4023030BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miris.StringZipper.Tests", "Miris.StringZipper.Tests\Miris.StringZipper.Tests.csproj", "{9E2E4E47-EDFE-429A-A735-51412ECE3366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miris.StringZipper.Tests", "Miris.StringZipper.Tests\Miris.StringZipper.Tests.csproj", "{9E2E4E47-EDFE-429A-A735-51412ECE3366}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

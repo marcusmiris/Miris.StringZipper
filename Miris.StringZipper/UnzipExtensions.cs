@@ -19,7 +19,9 @@ namespace Miris.StringZipper
                 using (var gs = new GZipStream(msi, CompressionMode.Decompress))
                     gs.CopyTo(mso);
 
-                return Encoding.UTF8.GetString(mso.ToArray());
+                var array = mso.ToArray();
+
+                return Encoding.UTF8.GetString(array, 0, array.Length);
             }
         }
 
